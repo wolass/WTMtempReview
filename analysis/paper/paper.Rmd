@@ -1,11 +1,19 @@
 ---
-title: "Title Goes Here"
+title: "Continous Skin and Body Temperature Monitoring in Medical Applications: Literature review"
 author:
-  - Myfirstname Mylastname:
-      email: fl@oneplace.edu
-      institute: [UofO]
+  - Wojciech Francuzik:
+      email: wojciech.francuzik@charite.de
+      institute: [charite]
       correspondence: true
-  - Yourfirstname Yourlastname:
+  - Paweł Prociów:
+      email: fl@another.edu
+      institute: [UofA]
+      correspondence: false
+  - Dominik Walczak:
+      email: fl@another.edu
+      institute: [UofA]
+      correspondence: false
+  - Tomasz Banasiewicz:
       email: fl@another.edu
       institute: [UofA]
       correspondence: false
@@ -30,10 +38,6 @@ keywords: |
 highlights: |
   These are the highlights. 
 ---
-
-<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
-
-<!-- With the following code you can access and display values from the yml header above. -->
 
 Keywords: `r rmarkdown::metadata$keywords`
 
