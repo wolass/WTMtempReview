@@ -1,5 +1,5 @@
 ---
-title: "Continous Skin and Body Temperature Monitoring in Medical Applications: Literature review"
+title: "Continuous Skin and Body Temperature Monitoring in Medical Applications: Literature review"
 author:
   - Wojciech Francuzik:
       email: wojciech.francuzik@charite.de
@@ -26,8 +26,8 @@ output:
       fig_caption: yes
       reference_docx: "../templates/template.docx" # Insert path for the DOCX file
       pandoc_args:
-      - --lua-filter=../templates/scholarly-metadata.lua
-      - --lua-filter=../templates/author-info-blocks.lua
+      #- --lua-filter=../templates/scholarly-metadata.lua
+      #- --lua-filter=../templates/author-info-blocks.lua
       - --lua-filter=../templates/pagebreak.lua
 bibliography: references.bib
 csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
@@ -61,32 +61,75 @@ knitr::opts_chunk$set(
 
 # Introduction
 
-Here is a citation [@Marwick2017]
+A new method of core body temperature monitoring is introduced and compared to currently used methods ([Lilly et. al., 1980]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1097_00003246-198012000-00010)).](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1097_00003246-198012000-00010)).)
 
-# Background
+([Mellergård, 1995]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1016_0090-3019%2895%2980049-m))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1016_0090-3019%2895%2980049-m))) find no clear evidence for a correlation between consciousness level and brain temperature.
 
-# Methods
+In 1971, Fox and Solman [9,10] invented a noninvasive deep temperature thermometer using a zero-heat-flow method ([Yamakage et. al., 2003]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1007_s005400300026)).](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1007_s005400300026)).)
 
-# Results
+([Larina et. al., 2005]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1088_0022-3727%2f38%2f15%2f015))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1088_0022-3727%2f38%2f15%2f015))) induced temperature gradients in tissue and tissue-like samples and monitored the temperature distribution using the optoacoustic technique.
 
-<!-- Here's some example analysis code: -->
+([Chen et. al., 2010]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1145_2221924.2221960))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1145_2221924.2221960))) demonstrate a design of non-invasive neonatal temperature monitoring with wearable sensors.
 
-```{r get-data, eval = FALSE}
-# Note the path that we need to use to access our data files when rendering this document
-my_data <- read.csv(here::here('analysis/data/raw_data/my_csv_file.csv'))
-```
+The objective of ([Raab et. al., 2011]([https://www.paperdigest.org/paper/?](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1108_00070701111177683)))
 
-```{r demo-plot, fig.cap="A plot of random numbers"}
-plot(rnorm(10))
-```
+## Wearable sensors  
 
-Figure \@ref(fig:demo-plot) shows how we can have a caption and cross-reference for a plot
+([Oh et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-29400434))](https://www.paperdigest.org/paper/?paper_id=pubmed-29400434))) demonstrate the fabrication of a highly sensitive flexible temperature sensor with a bioinspired octopus-mimicking adhesive.
 
-```{r demo-inline-code}
-x <- round(pi, 2)
-```
+## Temperature variability in the day 
 
-Here is an example of inline code `r x` in the middle of a sentence. 
+([Mills et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-30022159))](https://www.paperdigest.org/paper/?paper_id=pubmed-30022159))) identify an independent metabolic pathway that controls acute activation of adipose tissue thermogenesis in vivo. The AMP-activated protein kinase (AMPK) is a cellular energy sensor that has recently been demonstrated to be important in potentially regulating the metabolic activity of brown and beige adipose tissue.
+
+The contribution of ([Desjardins et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-30120579))](https://www.paperdigest.org/paper/?paper_id=pubmed-30120579))) is to summarize recent work describing the role of AMPK in brown and beige adipose tissue, focusing on its role in adipogenesis and non-shivering thermogenesis.
+
+([Li et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-30449620))](https://www.paperdigest.org/paper/?paper_id=pubmed-30449620))) identify the gut hormone secretin as a non-sympathetic BAT activator mediating prandial thermogenesis, which consequentially induces satiation, thereby establishing a gut-secretin-BAT-brain axis in mammals with a physiological role of prandial thermogenesis in the control of satiation.
+
+([Chouchani et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-30503034))](https://www.paperdigest.org/paper/?paper_id=pubmed-30503034))) review the evidence for regulators of heat production in thermogenic adipocytes in the context of the thermodynamic and kinetic principles that govern their therapeutic utility.
+
+([Baker, 2019]([https://www.paperdigest.org/paper/?paper_id=pubmed-31608304))](https://www.paperdigest.org/paper/?paper_id=pubmed-31608304))) discuss the state of evidence for potential non-thermoregulatory roles of sweat in the maintenance and/or perturbation of human health.
+
+## Temperature monitoring in wounds
+
+([Salvo et. al., 2017]([https://www.paperdigest.org/paper/?paper_id=pubmed-29257113))](https://www.paperdigest.org/paper/?paper_id=pubmed-29257113))) describe the advances in sensors and biosensors for monitoring the concentration of C-reactive protein (CRP), temperature and pH in wounds.
+
+([Touret et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1016_j.ymssp.2017.07.044))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1016_j.ymssp.2017.07.044))) focus on condition monitoring studies which use this thermal approach.
+
+([Youn et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=pubmed-30489065))](https://www.paperdigest.org/paper/?paper_id=pubmed-30489065))) propose flexible temperature sensors using silver nanowires (NWs) and a flexible colorless polyimide (CPI) film integrated with a wireless data transmission circuit.
+
+([Rahman et. al., 2020]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.11591_eei.v9i1.1557))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.11591_eei.v9i1.1557))) explore the use of Internet of Things (IoT) in monitoring the temperature and humidity of a data centre in real-time using a simple monitoring system to determine the relationship and difference between temperature and humidity with respect to the different locations of measurements.
+
+([Lori et. al., 2022]([https://www.paperdigest.org/paper/?paper_id=pubmed-35225350))](https://www.paperdigest.org/paper/?paper_id=pubmed-35225350))) include 31 neonates (16 males, 15 females; mean [SD] gestational age 39 weeks [1.67]) who received therapeutic hypothermia for HIE. Other influential work includes ([Zakaria et. al., 2018]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1109_icbaps.2018.8527408)).](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1109_icbaps.2018.8527408)).)
+
+## Systems approach for temp monitoring  
+
+([Mehmood et. al., 2015]([https://www.paperdigest.org/paper/?paper_id=pubmed-25884377))](https://www.paperdigest.org/paper/?paper_id=pubmed-25884377))) present a low-power portable telemetric system for wound condition sensing and monitoring.
+
+([Salvo et. al., 2017]([https://www.paperdigest.org/paper/?paper_id=pubmed-29257113))](https://www.paperdigest.org/paper/?paper_id=pubmed-29257113))) describe the advances in sensors and biosensors for monitoring the concentration of C-reactive protein (CRP), temperature and pH in wounds.
+
+([Sattar et. al., 2019]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1155_2019%2f8059629))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1155_2019%2f8059629))) provide a wound care solution based on a biosensor-based sensing system to measure basic biomarkers, considered as major wound characteristics, i.e., body temperature and body oxygenation, and design a fuzzy inference system to predict their effect on wound hydration, which ultimately recommends necessary actions to boost healing.
+
+The aim of ([Lavery et. al., 2019]([https://www.paperdigest.org/paper/?paper_id=pubmed-31423317))](https://www.paperdigest.org/paper/?paper_id=pubmed-31423317))) was to assess the sensitivity, specificity, and lead time associated with unilateral diabetic foot temperature monitoring.
+
+([Gordon et. al., 2020]([https://www.paperdigest.org/paper/?paper_id=pubmed-32109516))](https://www.paperdigest.org/paper/?paper_id=pubmed-32109516))) report the prediction specificity, lead time, and annualized alert frequency in each cohort at maximum sensitivity.
+
+By integrating the emerging bioelectronics and software ([Lou et. al., 2020]([https://www.paperdigest.org/paper/?paper_id=pubmed-32392156))](https://www.paperdigest.org/paper/?paper_id=pubmed-32392156))) create a flexible wound healing system.
+
+([Lu et. al., 2021]([https://www.paperdigest.org/paper/?paper_id=doi.org_10.1109_isscc42613.2021.9365992))](https://www.paperdigest.org/paper/?paper_id=doi.org_10.1109_isscc42613.2021.9365992))) present a CMOS multimodality system-on-a-chip (SoC) integrated with electrochemical sensors (ECH), a temperature sensor (TS), and a current stimulator (CS).
+
+This study was performed to evaluate the feasibility of a mobile health (mHealth)-based thermometer for foot temperature monitoring in patients with chronic foot ulcer before and after endovascular therapy and to determine the association between temperature change and wound healing time ([Lin et. al., 2021]([https://www.paperdigest.org/paper/?paper_id=pubmed-33960955)).](https://www.paperdigest.org/paper/?paper_id=pubmed-33960955)).)
+
+To progress in the latter, the purpose of ([Miskovic et. al., 2022]([https://www.paperdigest.org/paper/?paper_id=pubmed-35646874))](https://www.paperdigest.org/paper/?paper_id=pubmed-35646874))) is twofold. Other influential work includes ([Tang et. al., 2021]([https://www.paperdigest.org/paper/?paper_id=pubmed-33919752)).](https://www.paperdigest.org/paper/?paper_id=pubmed-33919752)).)
+
+## casy dla stałego monitorowania temp
+
+## jak dobrze mierzyć temp i unikać błędów
+
+## trendy temperatury
+
+## temp traq - przykłady publikacji
+
+<https://pantabletka.pl/drgawki-goraczkowe-u-dziecka/>
 
 # Discussion
 
@@ -98,26 +141,11 @@ Here is an example of inline code `r x` in the middle of a sentence.
 
 \newpage
 
-# References 
+# References
 
 <!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
 
-<div id="refs"></div>
+::: {#refs}
+:::
 
 \newpage
-
-### Colophon
-
-This report was generated on `r Sys.time()` using the following computational environment and dependencies: 
-
-```{r colophon, cache = FALSE}
-# which R packages and versions?
-if ("devtools" %in% installed.packages()) devtools::session_info()
-```
-
-The current Git commit details are:
-
-```{r}
-# what commit is this file at? 
-if ("git2r" %in% installed.packages() & git2r::in_repository(path = ".")) git2r::repository(here::here())  
-```
